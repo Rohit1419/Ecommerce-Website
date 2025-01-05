@@ -28,14 +28,13 @@ A modern e-commerce platform built with Next.js 13+, featuring dynamic product c
 ## Getting Started
 
 1. Clone the repository:
-git clone [your-repo-url]
+git clone https://github.com/Rohit1419/Ecommerce-Website.git
 
 2. Install dependencies:
 npm install
 
-3. Configure environment variables:
-Create a `.env` file with:
-DATABASE_URL=your_postgresql_url [supports multiple databases]
+Configure environment variables: Create a .env file with:
+DATABASE_URL=your_postgresql_url
 GOOGLE_CLIENT_ID=your_google_client_id
 GOOGLE_CLIENT_SECRET=your_google_client_secret
 NEXTAUTH_URL=http://localhost:3000
@@ -46,6 +45,7 @@ npm run dev
 
 ## Project Structure
 
+Project Structure
 src/
   ├── app/                 # Next.js 13+ app directory
   │   ├── api/            # API routes
