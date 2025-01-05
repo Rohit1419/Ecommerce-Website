@@ -1,36 +1,81 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Precious Models E-commerce
+
+A modern e-commerce platform built with Next.js 13+, featuring dynamic product catalog, search functionality, and Google authentication.
+
+## Live Demo
+
+
+## Features
+
+✨ Dynamic product catalog with pagination
+🔍 Real-time search functionality
+🛒 Shopping cart with persistent storage
+🔐 Google authentication
+📱 Responsive design
+⚡ Server-side rendering
+🎨 Modern UI with DaisyUI and Tailwind CSS
+
+## Tech Stack
+
+- Next.js 13+
+- TypeScript
+- Prisma ORM
+- PostgreSQL
+- Tailwind CSS
+- DaisyUI
+- NextAuth.js
 
 ## Getting Started
 
-First, run the development server:
+1. Clone the repository:
+git clone [your-repo-url]
 
-```bash
+2. Install dependencies:
+npm install
+
+3. Configure environment variables:
+Create a `.env` file with:
+DATABASE_URL=your_postgresql_url [supports multiple databases]
+GOOGLE_CLIENT_ID=your_google_client_id
+GOOGLE_CLIENT_SECRET=your_google_client_secret
+NEXTAUTH_URL=http://localhost:3000
+NEXTAUTH_SECRET=your_nextauth_secret
+
+4. Start development server:
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Project Structure
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+src/
+  ├── app/                 # Next.js 13+ app directory
+  │   ├── api/            # API routes
+  │   ├── cart/           # Shopping cart pages
+  │   ├── products/       # Product pages
+  │   ├── search/         # Search functionality
+  │   └── lib/            # Utility functions
+  ├── components/         # Reusable components
+  └── types/              # TypeScript types
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Key Features
 
-## Learn More
+### Product Catalog
+- Paginated product listing
+- Detailed product views
+- Search with instant results
 
-To learn more about Next.js, take a look at the following resources:
+### Shopping Cart
+- Add/remove products
+- Quantity management
+- Cart persistence
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Authentication
+- Google OAuth integration
+- Protected routes
+- User session management
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
+## Connect With Me
+https://www.linkedin.com/in/rohit-g-955391250/
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## License
+MIT License
